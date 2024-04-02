@@ -1,6 +1,6 @@
 import { render } from 'preact'
 import './index.css'
-import { LocationProvider, Route, Router, lazy } from 'preact-iso'
+import { LocationProvider, Router, lazy } from 'preact-iso'
 import Nav from './components/_Nav';
 
 const Home = lazy(() => import('./pages/Home'));
