@@ -1,6 +1,5 @@
 import { useLocation } from "preact-iso"
 import { useEffect, useState } from "preact/hooks"
-import { X, List } from "@phosphor-icons/react";
 
 export default function Nav() {
     const route = useLocation().path
